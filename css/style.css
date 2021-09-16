@@ -1,0 +1,157 @@
+/* ===Подключаем шрифты==================================================================================================================================================== */
+@import url("https://fonts.googleapis.com/css?family=Exo 2:regular,italic,500,500italic,600,600italic,700,700italic&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* -----Normalize------------------------------------------------------------------------------------- */
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+html {
+	font-size: 16px;
+}
+body {
+	font-family: "Exo 2", sans-serif;
+	line-height: 1;
+}
+
+/* -----Main-CSS------------------------------------------------------------------------------------- */
+
+/* ======= HEADER ============================================================================ */
+
+.header {
+}
+.header__logo {
+	width: 180px;
+}
+.header__logo img {
+	max-width: 100%;
+}
+
+/* ======== PAGE =========================================================================== */
+
+.page {
+}
+.page__title-block {
+	text-align: center;
+}
+.page__title {
+	font-family: "Montserrat", "Exo 2", sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 120%;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 2px rgba(24, 209, 0, 0.3);
+}
+.page__text-block {
+}
+
+/* =================================================================================== */
+
+.content-block {
+	line-height: 120%;
+}
+.content-block__one {
+}
+.content-block__two p {
+	text-indent: 30px;
+}
+.content-block__text {
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	text-align: justify;
+	word-spacing: 2px;
+}
+.content-block__text_first {
+	font-style: italic;
+}
+.content-block__text_last {
+	text-indent: 30px;
+}
+._uppercase {
+	text-transform: uppercase;
+	font-weight: 500;
+}
+._italic {
+	font-style: italic;
+}
+.content-block__title {
+	font-size: 20px;
+	text-indent: 30px;
+	font-weight: 700;
+	text-shadow: 2px 2px 2px rgba(24, 209, 0, 0.3);
+}
+.content-block__list {
+}
+.content-block__list li span {
+	font-size: 17px;
+	font-weight: 600;
+	color: rgba(255, 111, 0, 0.8);
+	text-shadow: 3px 3px 7px rgba(255, 111, 0, 0.6);
+}
+.content-block__item {
+	text-indent: 30px;
+	font-style: italic;
+	font-weight: 500;
+}
+.content-block__text,
+.content-block__item {
+	text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.content-block__link {
+	font-weight: 500;
+	color: #0000ff;
+	text-decoration: underline;
+	text-shadow: 1px -1px 1px rgba(55, 0, 255, 0.3);
+}
+
+/* =================================================================================== */
+
+/* ====== FOOTER ============================================================================= */
+
+.footer {
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: line-through;
+}
