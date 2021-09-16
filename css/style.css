@@ -1,6 +1,4 @@
 /* ===Подключаем шрифты==================================================================================================================================================== */
-@import url("https://fonts.googleapis.com/css?family=Exo 2:regular,italic,500,500italic,600,600italic,700,700italic&display=swap&subset=cyrillic-ext");
-
 @font-face {
 	font-family: "Montserrat";
 	src: url("../fonts/") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
